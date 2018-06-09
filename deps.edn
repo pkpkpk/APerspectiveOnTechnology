@@ -1,0 +1,9 @@
+{:paths ["src/main/cljs"],
+ :deps
+ {org.clojure/clojurescript {:mvn/version "1.10.238"},
+  reagent/reagent {:mvn/version "0.8.0"},
+  markdown-clj/markdown-clj {:mvn/version "1.0.2"},
+  neo/neo
+  {:git/url "https://github.com/pkpkpk/neo",
+   :tag "r0.1.01",
+   :sha "d21624281a6834531fb93e595a829fc3c842ee7a"}}}
